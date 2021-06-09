@@ -18,10 +18,24 @@ main{
     font-family: 'Varela Round', sans-serif;
 }
 
+#webcoderskull{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    padding: 0 20px;
+    width: 100%;
+    text-align: center;
+}
+
+canvas{
+    height:100vh;
+    background-color:#373adb;
+}
+
 
 .Logo{
 
-    background: linear-gradient(to right, #eeb310 0%, #ffffff 50%, #0aee3b 100%);
+    background: linear-gradient(to right, #8890db 0%, #f0f1f3 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
