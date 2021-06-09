@@ -7,7 +7,9 @@ html{
 body{
     margin: 0%;
     padding: 0%;
-    background-color: #505050;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
 }
 
 main{
@@ -29,13 +31,15 @@ main{
 
 canvas{
     height:100vh;
-    background-color:#373adb;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
 }
 
 
 .Logo{
 
-    background: linear-gradient(to right, #8890db 0%, #f0f1f3 100%);
+    background: linear-gradient(to right, #f0f1f3 100%, #8890db 0);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -54,10 +58,24 @@ canvas{
     width: 100%;
     box-shadow: 2px 2px 15px 1px black;
     border-radius: 20px;
-    background-color: rgb(255, 255, 255);
+    background: linear-gradient(-45deg, #23d5ab, #ee7752, #e73c7e, #23a6d5);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
     display: flex;
     justify-content: flex-end;
     flex-flow: column;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 #output{
@@ -166,12 +184,7 @@ canvas{
   }
 }
 
-
-
-
-
-
-
+/* Check from here if possible */
 div.background{
     margin:0;
     padding:0;
@@ -338,3 +351,18 @@ div.backgroundimages{
         width:100vw;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
