@@ -217,7 +217,7 @@ socket.on('realtime', function(data){
 
 document.addEventListener('DOMContentLoaded', function () {
   particleground(document.getElementById('particles'), {
-    dotColor: '#5cbdaa',
+    dotColor: '#66ff33',
     lineColor: '#5cbdaa'
   });
   var intro = document.getElementById('intro');
